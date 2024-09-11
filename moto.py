@@ -2,7 +2,7 @@ from main import Veiculo
 
 class Moto(Veiculo):
     def __init__(self, marca, modelo, placa, ano, cilindradas):
-        super().__init__(marca, modelo, placa,ano)
+        super().__init__(marca, modelo, placa, ano)
         self.__cilindradas = cilindradas
     #Sobrescrita do método __str__()
     def __str__(self):
